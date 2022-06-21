@@ -1,0 +1,138 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  position: relative;
+  max-width: 400px;
+  width: 400px;
+  height: auto;
+  background-color: rgba(66, 66, 66, 0.9);
+  padding: 25px 40px;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+}
+
+.title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.create {
+  color: white;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(96, 151, 197);
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-family: Chakra Petch;
+  font-size: 15px;
+}
+
+.create:hover {
+  background-color: rgb(86, 132, 170);
+}
+
+.countries {
+  width: auto;
+  height: 80px;
+  background-color: rgb(99, 99, 99);
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.selection {
+  border: none;
+  outline: none;
+  padding: 5px 5px;
+  font-size: medium;
+  color: rgb(223, 223, 223);
+  background-color: rgb(99, 99, 99);
+  font-family: Chakra Petch;
+}
+
+.option {
+  color: white;
+  border: none;
+  background-color: rgb(96, 151, 197);
+  border-radius: 5px;
+  margin: 2px;
+  cursor: pointer;
+  font-family: Chakra Petch;
+}
+
+.errName {
+  color: rgb(255, 93, 93);
+  font-size: smaller;
+  position: absolute;
+  right: 40px;
+  top: 110px;
+}
+.errDifficulty {
+  color: rgb(255, 93, 93);
+  font-size: smaller;
+  position: absolute;
+  right: 40px;
+  top: 195px;
+}
+.errDuration {
+  color: rgb(255, 93, 93);
+  font-size: smaller;
+  position: absolute;
+  right: 40px;
+  top: 280px;
+}
+.errSeason {
+  color: rgb(255, 93, 93);
+  font-size: smaller;
+  position: absolute;
+  right: 40px;
+  top: 365px;
+}
+.errSelection {
+  color: rgb(255, 93, 93);
+  font-size: smaller;
+  position: absolute;
+  right: 40px;
+  top: 450px;
+}
+
+.created {
+  padding: 20px 20px;
+  background-color: rgb(96, 151, 197, 0.9);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40%;
+  width: 250px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 1px 2px 354px 200px rgba(0, 0, 0, 0.81);
+}
+
+.popTitle {
+  color: white;
+  font-size: 25px;
+}
+
+.popButton {
+  color: white;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(66, 66, 66);
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-family: Chakra Petch;
+  font-size: 15px;
+  width: 120px;
+}
